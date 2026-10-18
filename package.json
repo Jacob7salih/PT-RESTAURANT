@@ -1,0 +1,23 @@
+{
+  "name": "pt-restaurant",
+  "version": "1.0.0",
+  "description": "Ce pour apprendre commet créer un projet distant",
+  "homepage": "https://github.com/Jacob7salih/PT-RESTAURANT#readme",
+  "bugs": {
+    "url": "https://github.com/Jacob7salih/PT-RESTAURANT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacob7salih/PT-RESTAURANT.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
