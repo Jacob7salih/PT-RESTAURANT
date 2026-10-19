@@ -22,3 +22,32 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
+
+.hero-scene {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/FondHeroScene.jpg");
+    background-size: cover;
+    filter: brightness(0.3);
+  }
+
+  * {
+    //pour que le contenu soit au dessus du ::before
+    position: relative;
+  }
+
+}
+
+.hero-scene {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
